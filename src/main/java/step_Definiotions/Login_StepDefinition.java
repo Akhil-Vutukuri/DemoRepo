@@ -10,7 +10,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
 
-@SuppressWarnings("deprecation")
+@SuppressWarnings("deprecation") //this is used to avoid warning
 public class Login_StepDefinition {
 
 	WebDriver driver;
